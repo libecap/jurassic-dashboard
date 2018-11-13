@@ -3,3 +3,17 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.controls {
+  display: block;
+}
+
+#cttv {
+  display: block;
+  width: 100%;
+}
+
+#stats {
+  display: block;
+  width: 100%;
+}
