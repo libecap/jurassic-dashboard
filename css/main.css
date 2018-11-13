@@ -5,40 +5,26 @@ html {
   line-height: 1.5;
 }
 
-.controls {
-  display: inline-block;
-  width: 100%;
-  margin: 0;
+.map {
+  border: 2px dotted #6feff9;
+  padding: 4px;
+}
+
+.dashboard-controls {
+  border-top: 2px dotted #6feff9;
+  border-bottom: 2px dotted #6feff9;
+}
+
+.topo {
+  border-right: 2px dotted #6feff9;
 }
 
 #cttv {
   display: inline-block;
   width: 100%;
-  height: 25em;
 }
 
 #stats {
   display: inline-block;
   width: 100%;
-}
-#island-map {
-  max-heignt: 25em;
-}
-
-.dashboard-map {
-  display: block;
-  height: 800px;
-  max-height: 25em;
-}
-
-.dashboard-stats {
-  display:inline-block;
-  height: 180px;
-  max-height: 450px;
-}
-
-.dashboard-videos {
-  display:inline-block;
-  height: 180px;
-  max-height: 450px;
 }
