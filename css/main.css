@@ -2,18 +2,29 @@ html {
   background-color: #333;
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
+  line-height: 1.5;
 }
 
-.controls {
-  display: block;
+.map {
+  border: 2px dotted #6feff9;
+  padding: 4px;
+}
+
+.dashboard-controls {
+  border-top: 2px dotted #6feff9;
+  border-bottom: 2px dotted #6feff9;
+}
+
+.topo {
+  border-right: 2px dotted #6feff9;
 }
 
 #cttv {
-  display: block;
+  display: inline-block;
   width: 100%;
 }
 
 #stats {
-  display: block;
+  display: inline-block;
   width: 100%;
 }
